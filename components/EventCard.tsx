@@ -13,7 +13,7 @@ interface CardProps {
 const EventCard = ({ title, image, time, date, location, slug }: CardProps) => {
   return (
     <Link
-      href={`/events`}
+      href={`/events/${slug}`}
       id="event-card"
     >
       <Image src={image} width={410} height={300} alt={title} className="poster" />
