@@ -15,7 +15,7 @@ const Page = async () => {
   return (
     <section>
       <h1 className="text-center">The hub for Every Dev <br /> Event You Can&lsquo;t Miss</h1>
-      <p className="text-center mt-5">Hackatons, Meetups, and Conferences, All in One Place</p>
+      <p className="text-center mt-5">Hackatons, Meetups, and Conferences, All in One Place, lalalalalala</p>
       <ExploreBtn />
 
       <div className="mt-20 space-y-7">
