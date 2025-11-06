@@ -1,51 +1,69 @@
 export type EventItem = {
-  title: string,
-  image: string,
-  slug: string,
-  location: string,
-  date: string,
-  time: string
-}
+  image: string;
+  title: string;
+  slug: string;
+  location: string;
+  date: string; // e.g., "2025-11-07"
+  time: string; // e.g., "09:00 AM"
+};
 
 export const events: EventItem[] = [
   {
-    title: "Jakarta Dev Conference 2025",
     image: "/images/event1.png",
-    slug: "jakarta-dev-conference-2025",
-    location: "Jakarta, Indonesia",
-    date: "2025-12-10",
-    time: "09:00 AM - 05:00 PM",
+    title: "React Summit US 2025",
+    slug: "react-summit-us-2025",
+    location: "San Francisco, CA, USA",
+    date: "2025-11-07",
+    time: "09:00 AM",
   },
   {
-    title: "React Meetup Surabaya",
     image: "/images/event2.png",
-    slug: "react-meetup-surabaya",
-    location: "Surabaya, Indonesia",
-    date: "2025-11-20",
-    time: "01:00 PM - 04:00 PM",
+    title: "KubeCon + CloudNativeCon Europe 2026",
+    slug: "kubecon-cloudnativecon-eu-2026",
+    location: "Vienna, Austria",
+    date: "2026-03-18",
+    time: "10:00 AM",
   },
   {
-    title: "AI & Cloud Hackathon",
     image: "/images/event3.png",
-    slug: "ai-cloud-hackathon",
-    location: "Bandung, Indonesia",
-    date: "2025-12-05",
-    time: "08:00 AM - 08:00 PM",
+    title: "AWS re:Invent 2025",
+    slug: "aws-reinvent-2025",
+    location: "Las Vegas, NV, USA",
+    date: "2025-12-01",
+    time: "08:30 AM",
   },
   {
-    title: "Next.js Workshop Bali",
     image: "/images/event4.png",
-    slug: "nextjs-workshop-bali",
-    location: "Denpasar, Bali",
-    date: "2025-12-18",
-    time: "10:00 AM - 03:00 PM",
+    title: "Next.js Conf 2025",
+    slug: "nextjs-conf-2025",
+    location: "Los Angeles, CA, USA (Hybrid)",
+    date: "2025-11-12",
+    time: "09:30 AM",
   },
   {
-    title: "Startup Tech Meetup",
     image: "/images/event5.png",
-    slug: "startup-tech-meetup",
-    location: "Yogyakarta, Indonesia",
-    date: "2026-01-07",
-    time: "02:00 PM - 06:00 PM",
+    title: "Google Cloud Next 2026",
+    slug: "google-cloud-next-2026",
+    location: "San Jose, CA, USA",
+    date: "2026-04-07",
+    time: "09:00 AM",
   },
-]
+  {
+    image: "/images/event6.png",
+    title: "ETHGlobal Hackathon: Paris 2026",
+    slug: "ethglobal-paris-2026",
+    location: "Paris, France",
+    date: "2026-07-10",
+    time: "10:00 AM",
+  },
+  {
+    image: "/images/events-full.png",
+    title: "Open Source Summit North America 2026",
+    slug: "oss-na-2026",
+    location: "Vancouver, Canada",
+    date: "2026-06-22",
+    time: "09:00 AM",
+  },
+];
+
+export default events;
